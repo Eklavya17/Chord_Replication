@@ -1,0 +1,13 @@
+{
+  "name": "YahooFinanceNews",
+  "description": "Use this tool to search for financial news articles about a specific stock ticker symbol using Yahoo Finance. Input must be a valid stock ticker (e.g., AAPL, TSLA, MSFT). Returns a list of recent news headlines and summaries for the given ticker.",
+  "args_schema": {
+    "query": {
+      "type": "str",
+      "description": "A valid stock ticker symbol to search news for, e.g. 'AAPL'.",
+      "required": true
+    }
+  },
+  "return_type": "str — a formatted string of recent news headlines and summaries for the ticker",
+  "framework": "langchain"
+}

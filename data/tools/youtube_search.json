@@ -1,0 +1,13 @@
+{
+  "name": "youtube_search",
+  "description": "search for youtube videos associated with a person. the input to this tool should be a comma separated list, the first part contains a person name and the second a number that is the maximum number of video results to return aka num_results. the second part is optional",
+  "args_schema": {
+    "query": {
+      "type": "str",
+      "description": "A comma-separated string where the first part is the search topic or person and the optional second part is the maximum number of video results to return.",
+      "required": true
+    }
+  },
+  "return_type": "str - a stringified list of YouTube video URLs",
+  "framework": "langchain"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "AmadeusClosestAirport",
+  "description": "Finds the closest airport to a given location. Provide a location (city name or physical address) and the tool returns the nearest IATA airport code, airport name, and distance from the location. Useful for travel planning and flight search.",
+  "args_schema": {
+    "location": {
+      "type": "str",
+      "description": "A city name or physical address to search near, e.g. 'Cali, Colombia' or '123 Main St, Chicago, IL'.",
+      "required": true
+    }
+  },
+  "return_type": "str — IATA code, airport name, and distance in km from the provided location",
+  "framework": "langchain"
+}

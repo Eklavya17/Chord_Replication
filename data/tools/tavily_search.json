@@ -1,0 +1,13 @@
+{
+  "name": "TavilySearch",
+  "description": "A powerful web search tool powered by Tavily. Use this to search for any information on the internet. Returns relevant search results including titles, URLs, and content snippets. Ideal for answering questions that require up-to-date or specific knowledge.",
+  "args_schema": {
+    "query": {
+      "type": "str",
+      "description": "The search query string to look up on the web.",
+      "required": true
+    }
+  },
+  "return_type": "str — a list of search results with titles, URLs, and content snippets",
+  "framework": "langchain"
+}
